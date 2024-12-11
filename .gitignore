@@ -1,1 +1,21 @@
-venv_vehiculos
+# Archivos y directorios de Python
+*.pyc
+__pycache__/
+
+# Entorno virtual
+venv_vehiculos/
+
+# Configuración de Django
+*.sqlite3
+.env
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos estáticos y medios generados
+/static/
+/media/
+
+# Otros
+*.log
